@@ -1,5 +1,4 @@
-import React from 'react';
-import PrivacyPolicyPage from './components/PrivacyPolicyPage.tsx';
+import PrivacyPolicyPage from '../components/PrivacyPolicyPage.tsx';
 
 function Privacy() {
     return (

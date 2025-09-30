@@ -1,9 +1,8 @@
-import React from 'react';
 // Asegúrate de que las rutas de importación sean correctas para tu estructura de carpetas
-import Carousel from './components/Carousel.tsx';
-import HorizontalProductCards from './components/HorizontalProductCards.tsx';
-import ProductsSection from './components/ProductsSection.tsx';
-import Pagination from './components/Pagination.tsx';
+import Carousel from '../components/Carousel.tsx';
+import HorizontalProductCards from '../components/HorizontalProductCards.tsx';
+import ProductsSection from '../components/ProductsSection.tsx';
+import Pagination from '../components/Pagination.tsx';
 
 function HomePage() {
   return (

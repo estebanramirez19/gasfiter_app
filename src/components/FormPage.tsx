@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Button, Form } from 'react-bootstrap';
-import { FormData } from './types'; // Importa la interfaz que definimos
+import type { FormData } from '../types'; // Importa la interfaz que definimos
+ // Importa la interfaz que definimos
 
 function FormPage() {
   // Estado para guardar los valores del formulario
