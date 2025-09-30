@@ -1,4 +1,5 @@
 import React from 'react';
+
 // Importa los componentes de React Bootstrap que vamos a usar
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import ProductCard from './ProductCard'; // Asegúrate de que esta ruta sea correcta
@@ -7,17 +8,7 @@ import ProductCard from './ProductCard'; // Asegúrate de que esta ruta sea corr
 // Asegúrate de que las rutas relativas sean correctas para tu proyecto
 // Plantas de Exterior
 import calatheaGoldenMosaic from '../images/out/out1.webp';
-import philodendroLongifolio from '../images/out/out12.webp';
-import hierbaGato from '../images/out/hierba_gato.webp'; // Para ofertas
 
-// Plantas de Interior
-import orquideaIn from '../images/in/in12.webp';
-import philodendroParaguayoIn from '../images/in/in13.webp'; // Corregida la ruta si es necesario
-
-// Maceteros
-import maceteroClasico from '../images/flowerpot/3.jpg';
-import maceteroDisenoVivo from '../images/flowerpot/1.jpg';
-import maceteroBiColor from '../images/flowerpot/2.jpg'; // Para ofertas
 
 // --- Definición de las Props con TypeScript ---
 interface ProductsSectionProps {
@@ -36,62 +27,6 @@ const allProducts = [
     price: '7.999',
     altText: 'Calathea Golden Mosaic',
     category: 'exterior'
-  },
-  {
-    id: 'philodendroLongifolio',
-    title: 'Philodendro Longifolio',
-    imageUrl: philodendroLongifolio,
-    price: '7.999',
-    altText: 'Philodendro Longifolio',
-    category: 'exterior'
-  },
-  {
-    id: 'orquideaIn',
-    title: 'Orquidea',
-    imageUrl: orquideaIn,
-    price: '5.999',
-    altText: 'Orquidea',
-    category: 'interior'
-  },
-  {
-    id: 'philodendroParaguayoIn',
-    title: 'Philodendro Paraguayo',
-    imageUrl: philodendroParaguayoIn,
-    price: '9.999',
-    altText: 'Philodendro Paraguayo',
-    category: 'interior'
-  },
-  {
-    id: 'maceteroClasico',
-    title: 'Clasico',
-    imageUrl: maceteroClasico,
-    price: '9.999',
-    altText: 'Macetero clasico',
-    category: 'macetero'
-  },
-  {
-    id: 'maceteroDisenoVivo',
-    title: 'Diseño Vivo',
-    imageUrl: maceteroDisenoVivo,
-    price: '7.999',
-    altText: 'Macetero diseño vivo',
-    category: 'macetero'
-  },
-  {
-    id: 'maceteroBiColorRenovado',
-    title: 'Macetero Bi Color Renovado',
-    imageUrl: maceteroBiColor,
-    price: '5.999',
-    altText: 'Macetero Bi Color Renovado',
-    category: 'ofertas'
-  },
-  {
-    id: 'hierbaDeGato',
-    title: 'Hierba De Gato',
-    imageUrl: hierbaGato,
-    price: '999',
-    altText: 'Hierba De Gato',
-    category: 'ofertas'
   }
 ];
 

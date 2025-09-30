@@ -6,29 +6,13 @@ import ProductCardHorizontal from './ProductCardHorizontal'; // Asegúrate de qu
 // Asegúrate de que las rutas relativas sean correctas para tu proyecto
 import ficusElasticaImg from '../images/in/ficus_elastica.jpg';
 import lazosDeAmorImg from '../images/in/in1.webp';
-import peperomiaCucharaImg from '../images/in/in2.webp';
-import peperomiaObtusifoliaImg from '../images/in/in3.webp';
-import dracenasImg from '../images/in/in4.webp';
-import scindapsusImg from '../images/in/in5.webp';
-import gomeroBurgundyImg from '../images/in/in6.webp';
-import philodendroParaguayoImg from '../images/in/in7.webp';
-import orquideaImg from '../images/in/in9.webp';
-import yuccaImg from '../images/in/in10.webp';
 
 
 function HorizontalProductCards() {
   // Datos de los productos para la sección horizontal
   const products = [
     { id: 'ficusElastica', title: 'Ficus Elástica', imageUrl: ficusElasticaImg, price: '4.999', productLink: 'ficusElastica' },
-    { id: 'lazosDeAmor', title: 'Lazos de amor', imageUrl: lazosDeAmorImg, price: '4.999', productLink: 'ficusElastica' },
-    { id: 'peperomiaCuchara', title: 'Peperomia Cuchara', imageUrl: peperomiaCucharaImg, price: '6.999', productLink: 'ficusElastica' },
-    { id: 'peperomiaObtusifolia', title: 'Peperomia Obtusifolia', imageUrl: peperomiaObtusifoliaImg, price: '6.999', productLink: 'ficusElastica' },
-    { id: 'dracenas', title: 'Dracenas', imageUrl: dracenasImg, price: '4.999', productLink: 'ficusElastica' },
-    { id: 'scindapsus', title: 'Scindapsus', imageUrl: scindapsusImg, price: '10.999', productLink: 'ficusElastica' },
-    { id: 'gomeroBurgundy', title: 'Gomero Burgundy', imageUrl: gomeroBurgundyImg, price: '8.999', productLink: 'ficusElastica' },
-    { id: 'philodendroParaguayo', title: 'Philodendro Paraguayo', imageUrl: philodendroParaguayoImg, price: '9.999', productLink: 'ficusElastica' },
-    { id: 'orquidea', title: 'Orquidea', imageUrl: orquideaImg, price: '5.999', productLink: 'ficusElastica' },
-    { id: 'yucca', title: 'Yucca', imageUrl: yuccaImg, price: '7.999', productLink: 'ficusElastica' },
+    { id: 'lazosDeAmor', title: 'Lazos de amor', imageUrl: lazosDeAmorImg, price: '4.999', productLink: 'ficusElastica' }
   ];
 
   return (
