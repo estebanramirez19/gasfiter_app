@@ -1,10 +1,9 @@
 // src/App.tsx
-import React from 'react';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 // ... tus otras importaciones ...
 import Layout from './routes/layout.tsx';
-import HomePage from './routes/homePage.tsx';//homePage
+import HomePage from './pages/homePage.tsx';//homePage
 import FormPage from './components/FormPage.tsx'; 
 import BasePlantPage from './components/BasePlantPage.tsx';
 import AboutUsPage from './components/AboutUsPage.tsx';

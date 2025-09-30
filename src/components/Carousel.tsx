@@ -1,4 +1,3 @@
-import React from 'react';
 import { Carousel as RBCarousel, Image } from 'react-bootstrap'; // Renombramos para evitar conflicto con el nombre de la función
 
 // Importa las imágenes directamente
