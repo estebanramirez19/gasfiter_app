@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 // Importa los componentes de React Bootstrap que vamos a usar
 import { Container, Row, Col, Card } from 'react-bootstrap';

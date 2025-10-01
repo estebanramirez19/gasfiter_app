@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Container, Row, Col } from 'react-bootstrap'; // Importa los componentes de React Bootstrap
 import ProductCardHorizontal from './ProductCardHorizontal'; // Asegúrate de que esta ruta sea correcta
 
