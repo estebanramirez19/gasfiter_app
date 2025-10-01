@@ -1,4 +1,4 @@
-import BasePlantPage from '../components/BasePlantPage.tsx';
+import BasePlantPage from '../../components/BaseProductPage.tsx';
 
 function PlantPage() {
     return (

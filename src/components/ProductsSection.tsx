@@ -7,7 +7,10 @@ import ProductCard from './ProductCard'; // Asegúrate de que esta ruta sea corr
 // Importa todas las imágenes necesarias aquí para cada categoría
 // Asegúrate de que las rutas relativas sean correctas para tu proyecto
 // Plantas de Exterior
-import calatheaGoldenMosaic from '../images/out/out1.webp';
+import cañeriaCobre from '../images/cañerias/cañeria_cobre.jpg';
+import cañeriaPPR from '../images/cañerias/cañeria_ppr.jpg';
+import cañeriaPvcH from '../images/cañerias/cañeria_pvch.png';
+import tuberiaPvcSan from '../images/cañerias/tuberia_pvc_sanitario.png';
 
 
 // --- Definición de las Props con TypeScript ---
@@ -21,13 +24,38 @@ interface ProductsSectionProps {
 // Añadimos un 'id' único a cada producto, que es crucial para la 'key' de React
 const allProducts = [
   {
-    id: 'calatheaGoldenMosaic', // Añadido un ID único
-    title: 'Calathea Golden Mosaic',
-    imageUrl: calatheaGoldenMosaic,
-    price: '7.999',
-    altText: 'Calathea Golden Mosaic',
-    category: 'exterior'
-  }
+    id: 'cañeriaCobre', // Añadido un ID único
+    title: 'Metro de cañería de cobre',
+    imageUrl: cañeriaCobre,
+    price: '5.000',
+    altText: 'cobro metro de cañería',
+    category: 'instalaciones'
+  },
+  {
+    id: 'cañeriaPPR', // Añadido un ID único
+    title: 'Metro de cañería de PPR',
+    imageUrl: cañeriaPPR,
+    price: '3.000',
+    altText: 'cobro metro de cañería',
+    category: 'instalaciones'
+  },
+  {
+    id: 'cañeriaPvcH', // Añadido un ID único
+    title: 'Metro de cañería de PVCH',
+    imageUrl: cañeriaPvcH,
+    price: '1.000',
+    altText: 'cobro metro de cañería',
+    category: 'instalaciones'
+  },
+  {
+    id: 'tuberiaPvcSan', // Añadido un ID único
+    title: 'Metro de cañería de pvc sanitario',
+    imageUrl: tuberiaPvcSan,
+    price: '6.000',
+    altText: 'cobro metro de cañería',
+    category: 'instalaciones'
+  },
+
 ];
 
 

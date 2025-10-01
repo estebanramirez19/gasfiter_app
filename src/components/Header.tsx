@@ -7,7 +7,7 @@ import {
   Image,
 } from 'react-bootstrap';
 
-import logo from '../images/logo.svg';
+import logo from '../images/logo.png';
 
 function PrimaryNavbar() {
   return (
@@ -18,8 +18,8 @@ function PrimaryNavbar() {
             <Image src={logo} alt="Green Shop Logo" height="85" className="d-inline-block align-top me-1" />
           </Navbar.Brand>
           <Navbar.Brand href="/" id="nombre_eslogan">
-            <h1 className="d-inline fs-1">Green Shop</h1>
-            <p className="d-block text-muted medium ms-1">La planta que buscabas, al mejor precio.</p>
+            <h1 className="d-inline fs-1">Gasfiteria De Primera</h1>
+            <p className="d-block text-muted medium ms-1">Las soluciones de gasfiteria que buscabas.</p>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="primary-navbar-collapse">

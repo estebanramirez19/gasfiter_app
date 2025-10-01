@@ -1,5 +1,5 @@
 
-import { Card, Button, Image } from 'react-bootstrap'; 
+import { Card, Button } from 'react-bootstrap'; 
 
 
 interface ProductCardProps {

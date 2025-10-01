@@ -4,15 +4,21 @@ import ProductCardHorizontal from './ProductCardHorizontal'; // Asegúrate de qu
 
 // Importa todas las imágenes necesarias aquí
 // Asegúrate de que las rutas relativas sean correctas para tu proyecto
-import ficusElasticaImg from '../images/in/ficus_elastica.jpg';
-import lazosDeAmorImg from '../images/in/in1.webp';
+import calefont from '../images/instalaciones/calefont.jpg';
+import wc from '../images/instalaciones/wc.jpg';
+import tina from '../images/instalaciones/tina.jpg';
+import termoElectrico from '../images/instalaciones/termo_electrico.jpg';
+
+
 
 
 function HorizontalProductCards() {
   // Datos de los productos para la sección horizontal
   const products = [
-    { id: 'ficusElastica', title: 'Ficus Elástica', imageUrl: ficusElasticaImg, price: '4.999', productLink: 'ficusElastica' },
-    { id: 'lazosDeAmor', title: 'Lazos de amor', imageUrl: lazosDeAmorImg, price: '4.999', productLink: 'ficusElastica' }
+    { id: 'calefont', title: 'Instalacion de calefont', imageUrl: calefont, price: '30.000', productLink: '#' },
+    { id: 'wc', title: 'Instalacion de WC', imageUrl: wc, price: '30.000', productLink: '#' },
+    { id: 'tina', title: 'Instalacion de tina', imageUrl: tina, price: '35.000', productLink: '#' },
+    { id: 'termoElectrico', title: 'Instalacion de Termo Electrico', imageUrl: termoElectrico, price: '40.000', productLink: '#' },
   ];
 
   return (
