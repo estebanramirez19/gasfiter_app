@@ -5,7 +5,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Layout from './routes/layout.tsx';
 import HomePage from './pages/homePage.tsx';//homePage
 import FormPage from './components/FormPage.tsx'; 
-import BasePlantPage from './components/BasePlantPage.tsx';
+import BasePlantPage from './components/BaseProductPage.tsx';
 import AboutUsPage from './components/AboutUsPage.tsx';
 import ContactPage from './components/ContactPage.tsx';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage.tsx';
